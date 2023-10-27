@@ -5,7 +5,7 @@ Aqui guardo todos os exercícios e mini peojetinhos que fiz ao decorrer do progr
 O [Programa ONE](https://www.oracle.com/br/education/oracle-next-education/) é um programa de educação e empregabilidade com objetivo social de capacitar pessoas em 
 tecnologia e conectá-las com o mercado de trabalho por meio de empresas parceiras.
 
-![Captura de tela 2023-09-03 170437](https://github.com/fernandesmelo/programa-oracle-next-education/assets/113717317/10859c5a-8f93-4f40-8c4f-eb59502ce1cc)
+![download](https://github.com/fernandesmelo/programa-oracle-next-education/assets/113717317/de3abebd-7c23-4b93-9da3-03b6b01e81a0)
 
 ## 🚀 Começando
 
