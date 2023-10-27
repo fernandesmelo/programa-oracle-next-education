@@ -1,0 +1,29 @@
+<!-- Este código JavaScript calcula e exibe as idades de três pessoas (Flávio, Joaquim e Barney) com base no ano atual 
+(2016 e 2017) subtraindo seus anos de nascimento (1977, 1996 e 1976, respectivamente). Cada idade é mostrada em uma 
+linha separada. -->
+
+<meta charset="UTF-8">
+<script>
+	function pulaLinha() {
+		document.write("<br>");	
+		document.write("<br>");	
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+	
+	var ano = 2016;
+	
+	mostra("Flávio tem " + (ano - 1977) + " anos");
+	mostra("Joaquim tem " + (ano - 1996) + " anos");
+
+	ano = 2017;
+	
+	mostra("Barney tem " + (ano - 1976) + " anos");
+</script>
+
+
+
+

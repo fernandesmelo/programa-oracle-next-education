@@ -1,0 +1,29 @@
+<!-- Este código JavaScript exibe as edições da Copa do Mundo de futebol a partir de 1930 até um ano limite inserido 
+pelo usuário, pulando de 4 em 4 anos, e depois mostra "FIM". -->
+
+<meta charset="UTF-8">
+<script>
+	function pulaLinha() {
+		document.write("<br>");	
+		document.write("<br>");	
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+
+	var limite = parseInt(prompt("Entre com a data limite"));
+	var anoCopa = 1930;
+	
+	while(anoCopa <= limite) {
+		mostra("Teve copa em " + anoCopa);
+		anoCopa = anoCopa + 4;	
+	}
+	
+	mostra("FIM");
+</script>
+
+
+
+

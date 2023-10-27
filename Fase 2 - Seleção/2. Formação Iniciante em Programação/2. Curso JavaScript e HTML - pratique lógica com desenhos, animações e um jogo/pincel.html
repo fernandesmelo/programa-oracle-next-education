@@ -1,0 +1,40 @@
+<!-- Este código cria um canvas onde o usuário pode desenhar círculos usando uma cor selecionada por meio de uma 
+paleta de cores (input type="color"). O usuário pode desenhar círculos ao mover o mouse e parar de desenhar ao soltar o 
+botão do mouse. O fundo da tela é cinza claro. -->
+
+<canvas width="600" height="400"></canvas>
+<input type="color">
+<script>
+  var paleta = document.querySelector('input');
+  var tela = document.querySelector('canvas');
+  var pincel = tela.getContext('2d');
+
+  pincel.fillStyle = 'grey';
+  pincel.fillRect(0, 0, 600, 400);
+
+  var desenha = false;
+
+  function desenhaCirculo(evento) {
+    if (desenha) {
+      var x = evento.pageX - tela.offsetLeft;
+      var y = evento.pageY - tela.offsetTop;
+
+      pincel.fillStyle = paleta.value;
+      pincel.beginPath();
+      pincel.arc(x, y, 10, 0, 2 * 3.14);
+      pincel.fill();
+    }
+
+    console.log(x + ',' + y);
+
+  }
+
+  tela.onmousemove = desenhaCirculo;
+  tela.onmousedown = function() {
+    desenha = true;
+  }
+  
+  tela.onmouseup = function() {
+    desenha = false;
+  }
+</script>

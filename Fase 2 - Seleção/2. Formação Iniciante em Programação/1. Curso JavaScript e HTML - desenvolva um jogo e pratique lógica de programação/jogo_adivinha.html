@@ -1,0 +1,38 @@
+<!-- Este código JavaScript gera um número aleatório entre 0 e 10 e permite ao usuário fazer até 3 tentativas para 
+adivinhar o número. Se o usuário adivinhar corretamente, ele exibirá a mensagem "Você ACERTOU, o número pensado era 
+[número]" e encerrará o jogo. Caso contrário, mostrará "Você ERROU!" após cada tentativa e, ao final, exibirá "FIM". -->
+
+<meta charset="UTF-8">
+<script>
+	function pulaLinha() {
+		document.write("<br>");	
+		document.write("<br>");	
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+
+	var numeroPensado = Math.round(Math.random() * 10);
+	var tentativas = 1;
+
+	while(tentativas <= 3) {
+		var chute = parseInt(prompt("Digite seu chute!"));
+		
+		if(chute == numeroPensado) {
+			mostra("Você ACERTOU, o número pensado era " + numeroPensado);
+			break;
+		} else {
+			mostra("Você ERROU!");
+		}
+
+		tentativas++;
+	}
+
+	mostra("FIM");
+</script>
+
+
+
+

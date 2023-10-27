@@ -1,0 +1,25 @@
+<!-- Este código JavaScript gera a tabela de multiplicação do número 7, exibindo os resultados da multiplicação de 1 a 10 
+(7 * 1, 7 * 2, ..., 7 * 10) em linhas separadas, e depois exibe "FIM". -->
+
+<meta charset="UTF-8">
+<script>
+	function pulaLinha() {
+		document.write("<br>");	
+		document.write("<br>");	
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+	
+	for(var multiplicador = 1; multiplicador <= 10; multiplicador++) {
+		mostra(7 * multiplicador);
+	}
+	
+	mostra("FIM");  	
+</script>
+
+
+
+

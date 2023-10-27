@@ -1,0 +1,21 @@
+<!-- Este código cria um canvas e desenha uma linha de quadrados verdes alinhados horizontalmente. Cada quadrado tem 
+50 pixels de largura e 50 pixels de altura. A função desenhaQuadroVerde é usada para desenhar cada quadrado, recebendo 
+as coordenadas x e y e a cor como parâmetros. -->
+
+<canvas width="600" heigth="400"></canvas>
+<script>
+    function desenhaQuadroVerde(x, y, cor) {
+        var tela = document.querySelector('canvas');
+        var pincel = tela.getContext('2d');
+        pincel.fillStyle = cor;
+        pincel.fillRect(x, y, 50, 50);
+        pincel.fillStroke = 'black';
+        pincel.strokeRect(x, y, 50, 50);
+    }
+	
+    for (var x = 0; x < 600; x = x + 50) {
+        desenhaQuadroVerde(x, 0, 'green');
+    }
+</script>
+
+

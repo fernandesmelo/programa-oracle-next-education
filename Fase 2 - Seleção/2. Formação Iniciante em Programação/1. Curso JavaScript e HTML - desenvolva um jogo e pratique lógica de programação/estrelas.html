@@ -1,0 +1,25 @@
+<!-- Este código JavaScript gera uma matriz de asteriscos com 3 linhas, cada uma contendo 10 asteriscos, exibida na 
+página da web. -->
+
+<meta charset="UTF-8">
+<script>
+	function pulaLinha() {
+		document.write("<br>");
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+
+	for(var linha = 1; linha <= 3; linha++) {
+		for(var coluna = 1; coluna <= 10; coluna++) {
+			document.write("*");		
+		}
+		pulaLinha();
+	}
+</script>
+
+
+
+
