@@ -53,6 +53,4 @@ Próximos passos...
 ## 🎁 Expressões de Gratidão
 
 Agradeço profundamente a [Oracle](https://www.linkedin.com/company/oracle/) e a [Alura](https://www.linkedin.com/school/aluracursos/) por nos proporcionar esse programa incrível 🫂.
-# programa-oracle-next-education
-# projeto-oracle-next-education
-# programa-oracle-next-education
+
