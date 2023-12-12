@@ -13,7 +13,9 @@ Essas instruções permitirão que você tenha uma cópia dos exercícios em exe
 
 ### 📋 Pré-requisitos
 
-Essas instruções permitirão que você tenha uma cópia dos exercícios e projetos em execução na sua máquina local para desenvolvimento e testes.
+Antes de começar, certifique-se de ter instalado em seu sistema operacional:
+* [Navegador Web](https://www.google.com/chrome/) para visualizar o projeto localmente.
+* [Visual Studio Code](https://code.visualstudio.com/) para acessar e editar os códigos.
 
 ### 🔧 Instalação
 
