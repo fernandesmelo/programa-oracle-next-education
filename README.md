@@ -18,7 +18,7 @@ Antes de começar, certifique-se de ter instalado em seu sistema operacional:
 
 1. Clone este repositório:
    <br>
-   ```git clone https://github.com/fernandesmelo/programa-oracle-next-education.git```
+   ```git clone https://github.com/fernandesmelo/criacao-de-layout.git```
 
 2. Abra o Visual Studio Code:
    * Clique em "Arquivo" (ou "File") no canto superior esquerdo da janela.
@@ -27,11 +27,9 @@ Antes de começar, certifique-se de ter instalado em seu sistema operacional:
    * Você verá a estrutura de pastas e arquivos do projeto no painel lateral esquerdo.
    * A partir daqui, você pode explorar, editar e trabalhar com os arquivos da pasta aberta diretamente no VSCode.
    * Abra o arquivo index.html em um navegador web.
-     
-A partir daqui, você pode explorar, editar e trabalhar com os arquivos da pasta aberta diretamente no VSCode.
 
 ### 🎉 Parabéns!
-Agora você tem o projeto HTML, CSS, e JavaScript instalado e rodando localmente. Bom desenvolvimento!
+Agora você tem os arquivos em HTML, CSS, JavaScript e React instalado e rodando localmente. Bom desenvolvimento!
 
 ## ⚙️ Executando os Testes
 
